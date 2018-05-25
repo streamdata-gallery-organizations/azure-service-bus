@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Service Bus
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,9 +25,9 @@ apis:
   tags: Operations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/providersmicrosoftservicebusoperations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/providersmicrosoft-servicebusoperations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/providersmicrosoftservicebusoperations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/providersmicrosoft-servicebusoperations-get-openapi.md
 - name: Azure Service Bus API Namespaces Check Name Availability
   x-api-slug: azure-service-bus-api
   description: Check the give namespace name availability.
@@ -37,7 +37,7 @@ apis:
   tags: Namespaces Name Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidprovidersmicrosoftservicebuschecknameavailability-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidprovidersmicrosoft-servicebuschecknameavailability-post-openapi.md
 - name: Azure Service Bus API Namespaces List By Subscription
   x-api-slug: azure-service-bus-api
   description: Gets all the available namespaces within the subscription, irrespective
@@ -48,9 +48,9 @@ apis:
   tags: Namespaces Subscription
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidprovidersmicrosoftservicebusnamespaces-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidprovidersmicrosoft-servicebusnamespaces-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidprovidersmicrosoftservicebusnamespaces-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidprovidersmicrosoft-servicebusnamespaces-get-openapi.md
 - name: Azure Service Bus API Namespaces List By Resource Group
   x-api-slug: azure-service-bus-api
   description: Gets the available namespaces within a resource group.
@@ -60,9 +60,9 @@ apis:
   tags: Namespaces Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespaces-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespaces-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespaces-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespaces-get-openapi.md
 - name: Azure Service Bus API Namespaces Create Or Update
   x-api-slug: azure-service-bus-api
   description: Creates or updates a service namespace. Once created, this namespace's
@@ -73,7 +73,7 @@ apis:
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacename-put-openapi.md
 - name: Azure Service Bus API Namespaces Delete
   x-api-slug: azure-service-bus-api
   description: Deletes an existing namespace. This operation also removes all associated
@@ -84,9 +84,9 @@ apis:
   tags: Namespaces
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacename-delete-openapi.md
 - name: Azure Service Bus API Namespaces Get
   x-api-slug: azure-service-bus-api
   description: Gets a description for the specified namespace.
@@ -96,9 +96,9 @@ apis:
   tags: Namespaces
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacename-get-openapi.md
 - name: Azure Service Bus API Namespaces Update
   x-api-slug: azure-service-bus-api
   description: Updates a service namespace. Once created, this namespace's resource
@@ -109,7 +109,7 @@ apis:
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacename-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacename-patch-openapi.md
 - name: Azure Service Bus API Namespaces List Authorization Rules
   x-api-slug: azure-service-bus-api
   description: Gets the authorization rules for a namespace.
@@ -119,9 +119,9 @@ apis:
   tags: Namespaces Authorization Rules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrules-get-openapi.md
 - name: Azure Service Bus API Namespaces Create Or Update Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Creates or updates an authorization rule for a namespace.
@@ -131,7 +131,7 @@ apis:
   tags: Namespaces Authorization Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-put-openapi.md
 - name: Azure Service Bus API Namespaces Delete Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Deletes a namespace authorization rule.
@@ -141,9 +141,9 @@ apis:
   tags: Namespaces Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete-openapi.md
 - name: Azure Service Bus API Namespaces Get Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Gets an authorization rule for a namespace by rule name.
@@ -153,9 +153,9 @@ apis:
   tags: Namespaces Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulename-get-openapi.md
 - name: Azure Service Bus API Namespaces List Keys
   x-api-slug: azure-service-bus-api
   description: Gets the primary and secondary connection strings for the namespace.
@@ -165,9 +165,9 @@ apis:
   tags: Namespaces Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
 - name: Azure Service Bus API Namespaces Regenerate Keys
   x-api-slug: azure-service-bus-api
   description: Regenerates the primary or secondary connection strings for the namespace.
@@ -177,7 +177,7 @@ apis:
   tags: Namespaces Regenerate Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
 - name: Azure Service Bus API Queues List All
   x-api-slug: azure-service-bus-api
   description: Gets the queues within a namespace.
@@ -187,9 +187,9 @@ apis:
   tags: Queues
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeues-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeues-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeues-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeues-get-openapi.md
 - name: Azure Service Bus API Queues Create Or Update
   x-api-slug: azure-service-bus-api
   description: Creates or updates a Service Bus queue. This operation is idempotent.
@@ -199,7 +199,7 @@ apis:
   tags: Queues
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuename-put-openapi.md
 - name: Azure Service Bus API Queues Delete
   x-api-slug: azure-service-bus-api
   description: Deletes a queue from the specified namespace in a resource group.
@@ -209,9 +209,9 @@ apis:
   tags: Queues
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuename-delete-openapi.md
 - name: Azure Service Bus API Queues Get
   x-api-slug: azure-service-bus-api
   description: Returns a description for the specified queue.
@@ -221,9 +221,9 @@ apis:
   tags: Queues
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuename-get-openapi.md
 - name: Azure Service Bus API Queues List Authorization Rules
   x-api-slug: azure-service-bus-api
   description: Gets all authorization rules for a queue.
@@ -233,9 +233,9 @@ apis:
   tags: Queues Authorization Rules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrules-get-openapi.md
 - name: Azure Service Bus API Queues Create Or Update Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Creates an authorization rule for a queue.
@@ -245,7 +245,7 @@ apis:
   tags: Queues Authorization Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-put-openapi.md
 - name: Azure Service Bus API Queues Delete Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Deletes a queue authorization rule.
@@ -255,9 +255,9 @@ apis:
   tags: Queues Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-delete-openapi.md
 - name: Azure Service Bus API Queues Get Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Gets an authorization rule for a queue by rule name.
@@ -267,9 +267,9 @@ apis:
   tags: Queues Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulename-get-openapi.md
 - name: Azure Service Bus API Queues List Keys
   x-api-slug: azure-service-bus-api
   description: Primary and secondary connection strings to the queue.
@@ -279,9 +279,9 @@ apis:
   tags: Queues Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
 - name: Azure Service Bus API Queues Regenerate Keys
   x-api-slug: azure-service-bus-api
   description: Regenerates the primary or secondary connection strings to the queue.
@@ -291,7 +291,7 @@ apis:
   tags: Queues Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenamequeuesqueuenameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
 - name: Azure Service Bus API Topics List All
   x-api-slug: azure-service-bus-api
   description: Gets all the topics in a namespace.
@@ -301,9 +301,9 @@ apis:
   tags: Topics
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopics-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopics-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopics-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopics-get-openapi.md
 - name: Azure Service Bus API Topics Create Or Update
   x-api-slug: azure-service-bus-api
   description: Creates a topic in the specified namespace.
@@ -313,7 +313,7 @@ apis:
   tags: Topics
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicname-put-openapi.md
 - name: Azure Service Bus API Topics Delete
   x-api-slug: azure-service-bus-api
   description: Deletes a topic from the specified namespace and resource group.
@@ -323,9 +323,9 @@ apis:
   tags: Topics
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicname-delete-openapi.md
 - name: Azure Service Bus API Topics Get
   x-api-slug: azure-service-bus-api
   description: Returns a description for the specified topic.
@@ -335,9 +335,9 @@ apis:
   tags: Topics
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicname-get-openapi.md
 - name: Azure Service Bus API Topics List Authorization Rules
   x-api-slug: azure-service-bus-api
   description: Gets authorization rules for a topic.
@@ -347,9 +347,9 @@ apis:
   tags: Topics Authorization Rules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrules-get-openapi.md
 - name: Azure Service Bus API Topics Create Or Update Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Creates an authorizatio rule for the specified topic.
@@ -359,7 +359,7 @@ apis:
   tags: Topics Authorization Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-put-openapi.md
 - name: Azure Service Bus API Topics Get Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Returns the specified authorization rule.
@@ -369,9 +369,9 @@ apis:
   tags: Topics Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-get-openapi.md
 - name: Azure Service Bus API Topics Delete Authorization Rule
   x-api-slug: azure-service-bus-api
   description: Deletes a topic authorization rule.
@@ -381,9 +381,9 @@ apis:
   tags: Topics Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-delete-openapi.md
 - name: Azure Service Bus API Topics List Keys
   x-api-slug: azure-service-bus-api
   description: Gets the primary and secondary connection strings for the topic.
@@ -393,9 +393,9 @@ apis:
   tags: Topics Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
 - name: Azure Service Bus API Topics Regenerate Keys
   x-api-slug: azure-service-bus-api
   description: Regenerates primary or secondary connection strings for the topic.
@@ -405,7 +405,7 @@ apis:
   tags: Topics Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
 - name: Azure Service Bus API Subscriptions List All
   x-api-slug: azure-service-bus-api
   description: List all the subscriptions under a specified topic.
@@ -415,7 +415,7 @@ apis:
   tags: Subscriptions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnamesubscriptions-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnamesubscriptions-get-openapi.md
 - name: Azure Service Bus API Subscriptions Create Or Update
   x-api-slug: azure-service-bus-api
   description: Creates a topic subscription.
@@ -425,7 +425,7 @@ apis:
   tags: Subscriptions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-put-openapi.md
 - name: Azure Service Bus API Subscriptions Delete
   x-api-slug: azure-service-bus-api
   description: Deletes a subscription from the specified topic.
@@ -435,7 +435,7 @@ apis:
   tags: Subscriptions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-delete-openapi.md
 - name: Azure Service Bus API Subscriptions Get
   x-api-slug: azure-service-bus-api
   description: Returns a subscription description for the specified topic.
@@ -445,7 +445,7 @@ apis:
   tags: Subscriptions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftservicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-get-openapi.md
 - name: Azure Service Bus API
   x-api-slug: azure-service-bus-api
   description: Depend on Azure Service Bus when you need highly-reliable cloud messaging

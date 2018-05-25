@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Service Bus
-x-complete: 1
+x-complete: 0
 info:
-  title: ServiceBusManagementClient
-  description: azure-service-bus-client
+  title: Azure Service Bus API Topics Get Authorization Rule
+  description: Returns the specified authorization rule.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -496,109 +496,17 @@ paths:
           description: OK
       tags:
       - Topics Authorization Rule
-    delete:
-      summary: Topics Delete Authorization Rule
-      description: Deletes a topic authorization rule.
-      operationId: Topics_DeleteAuthorizationRule
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulename-delete
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Topics Authorization Rule
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/authorizationRules/{authorizationRuleName}/ListKeys
-  : post:
-      summary: Topics List Keys
-      description: Gets the primary and secondary connection strings for the topic.
-      operationId: Topics_ListKeys
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulenamelistkeys-post
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Topics Keys
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/authorizationRules/{authorizationRuleName}/regenerateKeys
-  : post:
-      summary: Topics Regenerate Keys
-      description: Regenerates primary or secondary connection strings for the topic.
-      operationId: Topics_RegenerateKeys
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnameauthorizationrulesauthorizationrulenameregeneratekeys-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Parameters supplied to regenerate the authorization rule
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Topics Keys
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/subscriptions
-  : get:
-      summary: Subscriptions List All
-      description: List all the subscriptions under a specified topic.
-      operationId: Subscriptions_ListAll
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnamesubscriptions-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Subscriptions
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/subscriptions/{subscriptionName}
-  : put:
-      summary: Subscriptions Create Or Update
-      description: Creates a topic subscription.
-      operationId: Subscriptions_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-put
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Parameters supplied to create a subscription resource
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Subscriptions
-    delete:
-      summary: Subscriptions Delete
-      description: Deletes a subscription from the specified topic.
-      operationId: Subscriptions_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-delete
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Subscriptions
-    get:
-      summary: Subscriptions Get
-      description: Returns a subscription description for the specified topic.
-      operationId: Subscriptions_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-servicebusnamespacesnamespacenametopicstopicnamesubscriptionssubscriptionname-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Subscriptions
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
