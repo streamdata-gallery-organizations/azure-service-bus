@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure Service Bus",
+	"description": "This is a repository of azure service bus APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-service-bus.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-service-bus.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure Service Bus",
+			"x-api-slug": "azure-service-bus",
+			"description": "Depend on Azure Service Bus when you need highly-reliable cloud messaging service between applications and services, even when one or more is offline. Available in every Azure region, this fully-managed service eliminates the burdens of server management and licensing. Asynchronous operations give you flexible, brokered messaging between client and server, along with structured first-in, first-out (FIFO) messaging, and publish/subscribe capabilities&mdash;excellent for tasks like order processing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/service-bus/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Azure Service Bus",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure Service Bus",
+	"include": [
+		{
+			"name": "Azure Service Bus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-service-bus/master/_listings/azure-service-bus/apis.yaml"
+		}
+	]
+}

@@ -4,7 +4,7 @@ url: azure-service-bus.streamdata.gallery
 tag: Azure Service Bus
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-entities
+github_user: streamdata-gallery-topics
 github_repo: azure-service-bus
 github_branch: master
 collections:
